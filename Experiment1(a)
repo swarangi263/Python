@@ -1,0 +1,11 @@
+cover_price=24.95
+discount=0.40
+fc_ship=3
+ad_ship=0.75
+n=60
+total_book_cost=n*(cover_price-discount)
+total_ship=fc_ship+(n-1)*ad_ship
+total_cost=total_book_cost+total_ship
+print(total_book_cost)
+print(total_ship)
+print(total_cost)
