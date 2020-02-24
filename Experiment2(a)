@@ -4,6 +4,6 @@ def string_both_ends(str):
 		
 	return str[0:2]+str [-2:]
 
-print(string_both_ends('alay'))
-print(string_both_ends('al'))
-print(string_both_ends('a'))
+print(string_both_ends('swara'))
+print(string_both_ends('sw'))
+print(string_both_ends('s'))
