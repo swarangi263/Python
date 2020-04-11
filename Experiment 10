@@ -1,0 +1,27 @@
+file=open(&#39;Python1.txt&#39;,&#39;r&#39;)
+for each in file:
+print(each)
+#Using read()
+file=open(&#39;Python1.txt&#39;,&#39;r&#39;)
+print(file.read())
+#To create a file using write():
+file=open(&#39;Python2.txt&#39;,&#39;w&#39;)
+file.write(&quot;This is the write command.&quot;)
+file.write(&quot; It allows us to write in a particular file&quot;)
+file=open(&#39;Python2.txt&#39;,&#39;r&#39;)
+print(file.read())
+file.close()
+#Using append()
+file=open(&#39;Python3.txt&#39;,&#39;a&#39;)
+file.write(&quot;This method will add this line&quot;)
+file.close()
+file=open(&#39;Python3.txt&#39;,&#39;r&#39;)
+print(file.read())
+
+OUTPUT:
+
+Hello and Welcome to Python!
+Hello and Welcome to Python!
+This is the write command. It allows us to write in a particular file
+This method will add this lineThis method will add this lineThis method will add
+this line
