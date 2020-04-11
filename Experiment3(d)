@@ -1,1 +1,20 @@
+print("enter elements of tuple")
 
+l = input().split()
+t=tuple(l)
+print(t)
+
+x = input('Enter a word to be searched in tuple: ')
+
+if x in t :
+	print('Element {} found '.format(x))
+else:
+	print("Elment {} not found".format(x))
+
+
+Output:
+enter elements of tuple
+s p c l a 
+('s', 'p', 'c', 'l', 'a')
+Enter a word to be searched in tuple: c
+Element c found 
