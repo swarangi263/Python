@@ -1,0 +1,32 @@
+class Person():
+
+	def __init__(self,name,age,dob,locality):
+		self.name = name
+		self.age = age 
+		self.dob = dob
+		self.locality = locality
+
+n = input('Enter Name of person : ')
+d = input('Enter DateOfBirth of the person : ')
+a = input('Enter Age of person : ')
+loc = input('Enter location : ')
+
+person = Person(n,a,d,loc)
+
+print("\nPerson's details:")
+print('Name: {}'.format(person.name))
+print('Date_Of_Birth: {}'.format(person.dob))
+print('Age: {}'.format(person.age))
+print('Locality: {}'.format(person.locality)
+
+Output:
+Enter Name of person : Swarangi
+Enter DateOfBirth of the person : 26-03-2001
+Enter Age of person : 19
+Enter location : Mumbai
+
+Person's details:
+Name: Swarangi
+Date_Of_Birth: 26-03-2001
+Age: 19
+Locality: Mumbai
