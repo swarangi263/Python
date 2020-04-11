@@ -1,0 +1,13 @@
+def series(x):
+	return x*'n'
+
+m=int(input('Enter value of maximum no. of n:  '))
+i=1
+while i<m:
+	print(series(i),end='+')
+	i = i+1
+print(series(m))
+
+Output:
+Enter value of maximum no. of n:  6
+n+nn+nnn+nnnn+nnnnn+nnnnnn
